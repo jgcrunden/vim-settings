@@ -1,4 +1,5 @@
 set path+=** "Set fuzzy find
+command! MakeTags !ctags -R .
 set wildmenu "Show list of files when tab completing on file name
 set number
 syntax on
